@@ -8,7 +8,7 @@ window.AuxFunctionsCX = (function($) { // <-- jQuery como parámetro
     };
 
     return {
-        ChargeMessage: function(xtype, xmsg, canvasChart = '#dashboardWidget_139886') {
+        ChargeMessage: function(xtype, xmsg, canvasChart) {
             // Usa $ normalmente aquí
             const msgTypes = [
                 {class: 'IniCharge', type: 'info', icon: iconList.spin},
